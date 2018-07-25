@@ -1,0 +1,45 @@
+1. Hard to spot bugs withoiut version control.
+2. Need a tool which can highlight the diff instead of just giving the diff line
+3. version control tool much needed
+
+=============================================================================
+
+How does having older evrsions help me as a programmer?
+- prevents me from makiing same mistakes that were done before and rolled back.
+- Helps me to understand the history behind the code as it is today and also how it evolved.
+
+=============================================================================
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Pros:
+- flexibility
+- ensuring that it is compiling code each time a commit is done.
+
+Cons:
+- commit discipline needs to be followed
+- tend to lose changes if the commit size is too big and we wait too long to commit
+
+=============================================================================
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+- Git is meant to work with code i.e. a collection of inter-connected files. Changes in 1 are complete ONLY if the files are correspondingly changed.
+And the complete project will compile/ make sense only if all the related check-ins are committed together.
+
+- Google Docs does not expect interdependency/ inter-connectedness in the files that it deals with because it is not typically used to write code. 
+
+=============================================================================
+How can you use the commands git log and git diff to view the history of files?
+
+- log will give the entire commit history.
+- check the relevant commit and diff it with previous version to see the change.
+=============================================================================
+
+How might using version control make you more confident to make changes that could break something?
+
+- Experiment with new architecture/ code etc - we can always revert back to an older version in case a bug got introduced in the new version.
+
+=============================================================================
+Now that you have your workspace set up, what do you want to try using Git for?
+
+- To build my own repository where I can keep my code and collaborate with my project mates for new stuff.
