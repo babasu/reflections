@@ -21,5 +21,7 @@ Repository is a committed area - where only a subset of the working directory fi
 ============================================================
 
 
+How can you use the staging area to make sure you have one commit per logical change?
 
+Add all the files that are modified in one shot and commit them in one go.
 
