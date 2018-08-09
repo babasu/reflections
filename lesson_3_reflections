@@ -1,1 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
 
+When collaborating with multiple people across locations, if someone else adds something to the remote respository - could be part of 
+his work. 
+Then I should be able to work on the latest codebase which MUST include his new changes.
